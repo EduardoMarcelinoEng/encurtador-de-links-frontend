@@ -25,7 +25,7 @@ function App() {
     }
 
     setLoading(true);
-    axios.post(`${config.url}/link`, {
+    axios.post(`${config.url}`, {
       link
     })
       .then(result=>{
